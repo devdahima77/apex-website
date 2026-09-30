@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex University, Jaipur | Admissions 2026–27</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#" class="logo">APEX <span>UNIVERSITY</span></a>
+      <button class="mobile-menu-btn" id="menuToggle" aria-label="Toggle Navigation">☰</button>
+      <nav>
+        <ul id="navLinks">
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#placements">Placements</a></li>
+          <li><a href="#campus">Campus Life</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#admissions" class="btn btn-primary">Apply Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero & Lead Form -->
+  <section class="hero" id="admissions">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge">UGC Recognized • 60+ Years Legacy</span>
+        <h1>Shape Your Future at Apex University, Jaipur</h1>
+        <p>Industry-aligned degrees, state-of-the-art research laboratories, and dedicated placement support across an expansive 30-acre campus.</p>
+        
+        <div class="hero-cta">
+          <a href="#programs" class="btn btn-primary">Explore Courses</a>
+          <a href="#campus" class="btn btn-secondary">Campus Tour</a>
+        </div>
+
+        <div class="stats-ribbon">
+          <div class="stat-item">
+            <h3>30+</h3>
+            <p>Acres Campus</p>
+          </div>
+          <div class="stat-item">
+            <h3>50+</h3>
+            <p>Programs</p>
+          </div>
+          <div class="stat-item">
+            <h3>800+</h3>
+            <p>Recruiters</p>
+          </div>
+          <div class="stat-item">
+            <h3>36 LPA</h3>
+            <p>Highest CTC</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Admission Inquiry Form -->
+      <div class="form-card">
+        <h2>Admissions 2026–27</h2>
+        <p>Talk to an academic counselor</p>
+        <form id="leadForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="mobile" placeholder="10-Digit Mobile Number" pattern="[0-9]{10}" required>
+          </div>
+          <div class="form-group">
+            <select id="courseLevel" required>
+              <option value="">Select Level of Study</option>
+              <option value="UG">Undergraduate (UG)</option>
+              <option value="PG">Postgraduate (PG)</option>
+              <option value="Diploma">Diploma</option>
+              <option value="PhD">Ph.D.</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select id="course" required>
+              <option value="">Select Target Course</option>
+              <option value="B.Tech CSE">B.Tech (CSE / AI & ML)</option>
+              <option value="MBA">MBA (Dual Specialization)</option>
+              <option value="BCA">BCA / MCA</option>
+              <option value="Nursing / Pharmacy">B.Sc Nursing / B.Pharm</option>
+              <option value="Law">BA-LL.B / BBA-LL.B</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Request Call Back</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="section-pad">
+    <div class="container">
+      <div class="section-title">
+        <h2>Academic Programs</h2>
+        <p>Curriculums aligned with contemporary industry expectations</p>
+      </div>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Discipline</th>
+              <th>Featured Programs</th>
+              <th>Duration</th>
+              <th>Eligibility</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Engineering & Technology</strong></td>
+              <td>B.Tech (CSE, AI & ML, Cyber Security), BCA, MCA</td>
+              <td>3–4 Years</td>
+              <td>10+2 with PCM / AUCET / CUET</td>
+            </tr>
+            <tr>
+              <td><strong>Management & Commerce</strong></td>
+              <td>MBA (Finance, HR, Marketing, Operations), BBA, B.Com</td>
+              <td>2–3 Years</td>
+              <td>10+2 / Graduation with 50%</td>
+            </tr>
+            <tr>
+              <td><strong>Health Sciences</strong></td>
+              <td>B.Sc Nursing, B.Pharm, D.Pharm, BPT</td>
+              <td>2–4.5 Years</td>
+              <td>10+2 with PCB / NEET / AUCET</td>
+            </tr>
+            <tr>
+              <td><strong>Legal Studies</strong></td>
+              <td>BA-LL.B, BBA-LL.B (5-Yr Integrated), LL.M</td>
+              <td>1–5 Years</td>
+              <td>10+2 / Graduation in any stream</td>
+            </tr>
+            <tr>
+              <td><strong>Design & Humanities</strong></td>
+              <td>B.Des (Fashion/Interior), BA-JMC, B.Sc Agriculture</td>
+              <td>3–4 Years</td>
+              <td>10+2 in any stream / Merit</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Placements -->
+  <section id="placements" class="section-pad bg-white">
+    <div class="container">
+      <div class="placements-wrap">
+        <div>
+          <h2>Placements & Corporate Partnerships</h2>
+          <p class="section-desc">The centralized training and placement division conducts structured training, soft-skill mentorship, and campus drives with leading MNCs.</p>
+          <div class="recruiter-tags">
+            <span class="recruiter-pill">TCS</span>
+            <span class="recruiter-pill">Infosys</span>
+            <span class="recruiter-pill">Wipro</span>
+            <span class="recruiter-pill">AU Small Finance Bank</span>
+            <span class="recruiter-pill">ICICI Bank</span>
+            <span class="recruiter-pill">OYO</span>
+            <span class="recruiter-pill">Hindustan Media</span>
+          </div>
+        </div>
+        <div class="placement-metrics">
+          <div class="metric-card">
+            <h3>36 LPA</h3>
+            <p>Highest Package</p>
+          </div>
+          <div class="metric-card">
+            <h3>800+</h3>
+            <p>Visiting Recruiters</p>
+          </div>
+          <div class="metric-card">
+            <h3>30K+</h3>
+            <p>Global Alumni</p>
+          </div>
+          <div class="metric-card">
+            <h3>100%</h3>
+            <p>Placement Support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Campus Infrastructure -->
+  <section id="campus" class="section-pad">
+    <div class="container">
+      <div class="section-title">
+        <h2>Campus Infrastructure</h2>
+        <p>A collaborative ecosystem built for study, research, and recreation</p>
+      </div>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Smart Classrooms & Labs</h3>
+          <p>Equipped with modern multimedia setups, robotics workbenches, and specialized pharmacology facilities.</p>
+        </div>
+        <div class="card">
+          <h3>Hostel & Dining</h3>
+          <p>Secure on-campus residences with AC and Non-AC alternatives, Wi-Fi, and monitored round-the-clock safety.</p>
+        </div>
+        <div class="card">
+          <h3>Sports & Incubation</h3>
+          <p>Full-size athletic grounds, indoor sports arenas, and an active business incubator for student founders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section-pad bg-white">
+    <div class="container">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+        <p>Quick answers about registration, approvals, and campus facilities</p>
+      </div>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">Is Apex University UGC recognized? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Yes, Apex University is established under the Rajasthan State Legislature and recognized by the UGC, with professional council recognitions including BCI and PCI where applicable.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What scholarships are available? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Merit scholarships are granted based on qualifying board percentages (10+2/UG), national test scores (CUET/JEE/NEET), and recognized sports achievements.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Does the university operate bus transport? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Yes, university buses cover all key pickup sectors throughout Jaipur city connecting both campus locations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>Apex University, Jaipur</h4>
+        <p>Campus: Achrol / Sitapura, Jaipur, Rajasthan</p>
+        <p>Admissions: +91 74138 74138</p>
+        <p>Email: admissions@apexuniversity.co.in</p>
+      </div>
+      <div class="footer-col">
+        <h4>Direct Navigation</h4>
+        <p><a href="#programs">Courses & Fees</a></p>
+        <p><a href="#admissions">AUCET Registration</a></p>
+        <p><a href="#placements">Placement Cell</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Approvals</h4>
+        <p>• UGC Approved</p>
+        <p>• Bar Council of India (BCI)</p>
+        <p>• Pharmacy Council of India (PCI)</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Apex University, Jaipur. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+<script>document.addEventListener('DOMContentLoaded', () => {
+  // 1. Mobile Menu Toggle
+  const menuToggle = document.getElementById('menuToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  if (menuToggle && navLinks) {
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+
+    // Close menu when a link is clicked on mobile
+    navLinks.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('show');
+      });
+    });
+  }
+
+  // 2. FAQ Accordion Interaction
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach((item) => {
+    const button = item.querySelector('.faq-question');
+    const indicator = button.querySelector('span');
+
+    button.addEventListener('click', () => {
+      const isActive = item.classList.contains('active');
+
+      // Close all accordions
+      faqItems.forEach((faq) => {
+        faq.classList.remove('active');
+        const span = faq.querySelector('.faq-question span');
+        if (span) span.textContent = '+';
+      });
+
+      // Toggle current accordion
+      if (!isActive) {
+        item.classList.add('active');
+        if (indicator) indicator.textContent = '−';
+      }
+    });
+  });
+
+  // 3. Admission Form Submission
+  const leadForm = document.getElementById('leadForm');
+
+  if (leadForm) {
+    leadForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const course = document.getElementById('course').value;
+
+      alert(`Thank you, ${name}! Your inquiry for ${course} has been registered. An admissions counselor will contact you shortly.`);
+
+      leadForm.reset();
+    });
+  }
+});</script>
+</html>
